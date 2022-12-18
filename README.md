@@ -24,7 +24,7 @@ Run the python manage.py makemigrations and python manage.py migrate commands to
 
 ## PROGRAM
 #IN models.py:-
-
+```
 from django.db import models
 from django.contrib import admin
 #Create your model here.
@@ -46,7 +46,7 @@ from django.contrib import admin
 from .models import student_marks,student_marksAdmin
 
 admin.site.register(student_marks,student_marksAdmin)
-
+```
 
 ## OUTPUT
 file:///home/sec/Downloads/output.png![image](https://user-images.githubusercontent.com/118657189/208285226-94fd26c6-f9c7-4c10-b9b4-32e53bfeff4f.png)
