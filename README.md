@@ -23,8 +23,9 @@ Run the python manage.py makemigrations and python manage.py migrate commands to
 
 
 ## PROGRAM
-#IN models.py:-
 ```
+#IN models.py:-
+
 from django.db import models
 from django.contrib import admin
 #Create your model here.
@@ -38,10 +39,9 @@ class student_marks(models.Model):
     total= models.FloatField()
 class student_marksAdmin(admin.ModelAdmin):
     list_display = ('register_no','physics','chemistry','computer','maths','english','total')
-```
 
 #IN admin.py:-
-```
+
 from django.contrib import admin
 from .models import student_marks,student_marksAdmin
 
