@@ -23,7 +23,7 @@ Run the python manage.py makemigrations and python manage.py migrate commands to
 
 
 ## PROGRAM
-```#IN models.py:-
+#IN models.py:-
 
 from django.db import models
 from django.contrib import admin
@@ -45,7 +45,7 @@ class student_marksAdmin(admin.ModelAdmin):
 from django.contrib import admin
 from .models import student_marks,student_marksAdmin
 
-admin.site.register(student_marks,student_marksAdmin)```
+admin.site.register(student_marks,student_marksAdmin)
 
 
 ## OUTPUT
