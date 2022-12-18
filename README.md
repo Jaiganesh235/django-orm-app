@@ -18,7 +18,7 @@ Define a model for the students_marks in the models.py. Allow host access and ad
 ### STEP 3:
 Register the models with the Django admin site. In admin.py under app folder, register the models with Django admin site.
 
-###STEP 4:
+### STEP 4:
 Run the python manage.py makemigrations and python manage.py migrate commands to create the necessary database tables for the student_marks model. Run the server using "python3 manage.py runserver 0:80" command.
 
 
